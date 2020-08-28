@@ -1,0 +1,89 @@
+.SideMenuHeader{
+    text-align: center;
+    display: block;
+    height: 10%;
+}
+.SideMenuHeader img{
+    max-width:100%;
+    max-height:100%;
+}
+.SideMenuTenant{
+    background-color:gray;
+    color: white; 
+}
+.sideMenuButton{
+    height: 100%!important;
+    width: 100%!important;
+    border-bottom: .5px solid gray!important;
+    font-size: 80%!important;
+    border-radius: 0!important;
+}
+.border{
+    border: 1px solid #e0e0e0!important;
+    border-bottom: 0px solid gray!important;
+    border-top: 0px solid gray!important;
+    height: 90.5vh!important;
+    position: relative!important;
+    background-color: #ffffff;
+}
+
+.buttonside{
+    font-size: 70% !important;
+    text-align: left !important;
+    justify-content: left !important;
+    height: 50px !important;
+    font-family: 'Montserrat', sans-serif !important;
+    padding-left: 13px !important;
+    
+}
+.iconColor{
+    color:#8c60a1;
+    font-size: 30px;
+    fill: purple;
+}
+
+.sizepdf{
+    overflow:'scroll' !important;
+    height:95%;
+}
+.HeaderTittleSide{
+    height: 26px;
+    padding-top: 2px;
+   
+}
+.HeaderTittleTextSide{
+    font-size: 14px !important;
+}
+
+@media (min-width: 1440px) {
+    .HeaderTittleSide{
+        height: 32px;
+        padding-top: 2px;
+       
+    }
+    .HeaderTittleTextSide{
+        font-size: 18px !important;
+    }
+    .border{
+        height: 800px !important;
+    }
+}
+@media (min-width: 1720px) {
+  
+    .border{
+        height: 1000px !important;
+    }
+}
+@media (min-width: 2000px) {
+    .HeaderTittleSide{
+        height: 44px;
+        padding-top: 2px;
+       
+    }
+    .HeaderTittleTextSide{
+        font-size: 26px !important;
+    }
+    .border{
+        height: 1400px !important;
+    }
+}

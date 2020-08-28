@@ -1,0 +1,10 @@
+.ContainerSize{
+    overflow-x: hidden; 
+    overflow-x: auto; 
+    height: 380px !important;
+    
+
+}
+.ContainerSizeQoS{
+    height: 320PX !important;
+}

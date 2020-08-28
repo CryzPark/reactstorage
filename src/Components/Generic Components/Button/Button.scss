@@ -1,0 +1,44 @@
+.Button{
+    width: 100%!important;
+    height: 100%!important;
+    border-radius: 0!important;
+    text-transform: none !important;
+}
+.ButtonBorderRadio{
+    border-radius: 15px!important;
+}
+.ButtonBorder{
+    border-bottom: 1px solid #e0e0e0 !important;
+}
+.ButtonBorders{
+    border: 1px solid !important;
+}
+.SubmitLogin{
+    width: 100%!important;
+    height: 100%!important;
+    border-radius: 15px!important;
+}
+.ButtonMenu{
+    height: 100%!important;
+    width: 100%!important;
+    font-size: 9.5px;
+    color:#989898;
+}
+.AnunciosButton{
+    width: 30% !important;
+    border: .8px solid grey !important;
+    margin: 2% 33% 0 37% !important;
+}
+
+.reduceSize {
+    padding: 0px 0px !important;
+}
+@media only screen and (max-width: 320px) {
+    .Button{
+        font-size: x-small !important;
+        text-align: center !important;
+    }
+    .ButtonMenu:focus{
+        border-bottom: 0px solid purple !important;
+    }
+}

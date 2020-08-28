@@ -1,0 +1,21 @@
+
+.FillContent{
+    min-height: 20px !important ;
+}
+.LoginButton{
+    background-color: #ffffff !important;
+    -webkit-box-shadow: 0px 5px 10px -3px rgba(0,0,0,0.75) !important;
+    -moz-box-shadow: 0px 5px 10px -3px rgba(0,0,0,0.75) !important;
+    box-shadow: 0px 5px 10px -3px rgba(0,0,0,0.75) !important;
+    border: 1px solid #e0e0e0 !important;
+}
+.InputButton{
+    background-color: #ffffff !important;
+    
+    div{
+        border: 1px solid #e0e0e0 !important;
+    }
+}
+.InputLoginText{
+    color: #707070;
+}

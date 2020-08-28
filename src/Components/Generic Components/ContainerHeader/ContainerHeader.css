@@ -1,0 +1,92 @@
+.ContainerHeader{
+    border: .5px solid gray;
+    background: white;
+    margin: 10px;
+    width: 97.8%;
+}
+
+.Sigle{
+    min-height: 40px !important;
+    overflow: hidden;
+}
+.chatContainer .Multiple{
+    min-height: 350px !important;
+}
+.chatContainer{
+    border: .5px solid gray;
+    background: white;
+    margin: 10px;
+    width: 97.8%;
+}
+.Multiple{
+    min-height: 200px !important;
+    overflow-x: hidden !important; 
+    overflow-x: auto !important; 
+}
+.ToolbarContainerHeader{
+    background-color: #8c60a1 !important;
+    min-height: 40px !important;
+    color: white;
+}
+
+.TextContainer{
+    height: 90px;
+    text-overflow: ellipsis;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+.footerContainerHeader{
+    border-top:.5px solid gray;
+    height: 30px;
+}
+.DivFotter{
+    float: right;
+    color:gray;
+    margin-top: 3px;
+    font-size: 16px;
+    
+}
+
+.containerHeaderBody{
+    font-size: 14px;
+    color:#4D4D4D;
+}
+.containerHeaderTiTle{
+    font-size: 14px;
+    height: 30px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerHeaderTiTleIcon{
+    font-size: 20px;
+    font-weight: bold !important;
+    margin-right: 5px;
+}
+@media only screen and (max-width: 600px) {
+    .containerHeaderTiTle{
+        font-size: 12px;
+    }
+    .containerHeaderBody{
+        font-size: 10px;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .containerHeaderTiTle{
+        font-size: 9px;
+        width: 100%;
+    }
+    .containerHeaderBody{
+        font-size: 10px;
+    }
+    .ContainerHeader{
+        width: 93.8%;
+    }
+    .chatContainer{
+        width: 93.8%;
+    }
+    
+  }
+  

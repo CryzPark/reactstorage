@@ -1,0 +1,81 @@
+.avatarModal{
+    height:80px !important ;
+    width: 80px !important;
+    font-size: 30px !important;
+    float: right !important;
+    margin-top: 20px !important;
+    margin-right: 20px !important;
+}
+
+.profileTxt{
+    margin-block-start: 10px;
+    margin-block-end: 0;
+}
+.profileInput{
+    width: 80%;
+     div input {
+        height: 25px !important;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+.profileName{
+    color: purple;
+    font-size: 18px;
+}
+.profileButton{
+    height: 32px !important;
+    width: 30% !important;
+    font-size: 12px !important;
+    color: purple !important;
+    margin-top: 40px !important;
+    border: .8px solid grey !important;
+    margin-left: 34% !important ;
+}
+@media only screen and (max-width: 768px) {
+    .profileTxt{
+        font-size: 12px;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+    .profileName{
+        font-size: 16px;
+        margin-block-end: 0em;
+    }
+    .avatarModal{
+        height:60px !important ;
+        width: 60px !important;
+        font-size: 20px !important;
+        float: right !important;
+        margin-top: 20px !important;
+        margin-right: 25px !important;
+    }
+}
+@media only screen and (max-width: 425px) {
+    
+    .profileButton{
+        height: 32px !important;
+        width: 60% !important;
+        font-size: 12px !important;
+        color: purple !important;
+        margin-left: 21% !important ;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .profileInput{
+        width: 100%;
+         
+    }
+    .avatarModal{
+        height:55px !important ;
+        width: 55px !important;
+        font-size: 20px !important;
+    }
+    .profileButton{
+        height: 32px !important;
+        width: 60% !important;
+        font-size: 12px !important;
+        color: purple !important;
+        margin-left: 21% !important ;
+    }
+}

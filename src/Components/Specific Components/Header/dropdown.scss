@@ -1,0 +1,37 @@
+.Avatar{
+    height:35px !important;
+    width: 35px !important;
+}
+.HeaderText{
+    margin-top: 3% !important;
+    padding-left: 15% !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 12px;
+    vertical-align: middle;
+    color: white;
+}
+@media only screen and (max-width: 320px) {
+    .Avatar{
+        height:30px !important;
+        width: 30px !important;
+        font-size: 20px !important;
+    }
+
+}
+.buttonDrop{
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 7.5px !important;
+    text-align: left !important;
+    justify-content: left !important;
+}
+.iconColorDrop{
+    color:#8c60a1;
+    margin-left: 12px;
+}
+.dropMenu{
+    width: 150px;
+    border: 1px solid #e1e1e1 !important;
+}
+.avatarbutton{
+    padding-bottom: 16px !important;
+}

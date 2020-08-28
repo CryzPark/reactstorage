@@ -1,0 +1,234 @@
+.buttonclose{
+    color: white !important;
+    .MuiSvgIcon-root{
+        font-size: 18px !important;
+    }
+    
+}
+.ModalContainerImg{
+    height: 100%;
+    width:18%;
+    float: left;
+}
+.ModalContainer{
+    height: 550px;
+    width: 600px;
+    background-color: white;
+}
+
+.ModalContainerBarr{
+    background-color: #8c60a1;
+    height: 100%;
+    width: 2%;
+    float: left;
+}
+.ModalContainerHeader{
+    height: 20%;
+}
+.ModalContainerText{
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    font-size: 13px;
+    padding-left: 160px;
+    color:#4D4D4D !important;
+}
+.ModalContainerText span{
+    color: #8c60a1;
+}
+.ModalContainerTextTitle{
+    padding-top: 20px;
+    padding-left: 160px;
+    color: #8c60a1 ;
+    margin-block-end: 0 !important;
+}
+.ModalContainerBodyHeaderDrop{
+    width: 30%;
+    color: #ba68c8 ;
+    float: left;
+    padding-left: 1%;
+    p{
+        margin: 12px;
+    }
+}
+.ModalContainerBodyHeader p{
+    color: #8c60a1 ;
+    margin-block-start: 2px !important;
+    margin-block-end: 2px !important;
+    font-size: 13px;
+}
+.ModalContainerBodyHeaderInput{
+    width: 60%;
+    float: right;
+}
+.ModalContainerBodyHeaderDrop .drop{
+    height:25px !important;
+    width: 100% !important;
+}
+.ModalContainerBodyHeaderInput .inputS div input{
+    height: 25px !important;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.ModalContainerBodyHeaderInput .inputS{
+    width: 80% !important;
+}
+.ModalContainerBodyHeader{
+    padding-top:10px;
+    padding-bottom:10px;
+    height: 50px;
+}
+.ModalContainerBody{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 50%;
+}
+.ModalButton{
+    width: 40% !important;
+    margin: 9% 30% 0 30% !important;
+    -webkit-box-shadow: 0px 5px 10px -3px rgba(0,0,0,0.75) !important;
+        -moz-box-shadow: 0px 5px 10px -3px rgba(0,0,0,0.75) !important;
+        box-shadow: 0px 5px 10px -3px rgba(0,0,0,0.75) !important;
+        border: 1px solid #e0e0e0 !important;
+        color: #8c60a1 !important;
+}
+.ModalContainerBodyReglamento{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 14px;
+    color:#4D4D4D !important;
+}
+.ModalContainerBodyCheckbox{
+    color:#4D4D4D !important;
+    float: right;
+    width: 45%;
+    margin-top: 10px;
+}
+.ModalContainerBodyCheckbox p{
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    font-size: 14px;
+}
+.ModalContainerBodyLink{
+    height: 42px;
+    font-size: 10px;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    width: 50%;
+}
+.ModalContainerBody span{
+    font-weight: bold !important;
+}
+.ModalContainerToolbar{
+    background-color:#8c60a1 !important;
+    color: white;
+    height: 36px !important;
+    padding-right: 0px !important;
+}
+.ModalContainerToolbarTittle{
+    width: 94% !important;
+    font-size: 12px;
+}
+.ModalContainerText2{
+    padding: 15% 5% 15% 5%;
+}
+.ModalContainerBodyFooter{
+    height: 20%;
+}
+.custom{
+    min-height: 48px !important;
+}
+.customModalContainer{
+    background-color: white;
+    height: 550px;
+    width: 700px;
+}
+.DividerB{
+    margin-top: 80px !important;
+    color: black !important;
+}
+@media only screen and(min-width: 1430px){
+    .customModalContainer{
+        height: 620px;
+        width: 700px;
+        margin-left: 0;
+    }
+    .ModalContainer{
+        height: 600px;
+        width: 700px;
+        margin-left: 0;
+    }
+}
+
+@media only screen and(min-width: 2000px){
+    .customModalContainer{
+        height: 620px;
+        width: 700px;
+        margin-left: 25%;
+    }
+    .ModalContainer{
+        height: 600px;
+        width: 700px;
+        margin-left: 25%;
+    }
+}
+@media only screen and(max-width: 1030px){
+    .customModalContainer{
+        height: 500px !important;
+        width: 500px !important;
+        margin-left: 0;
+    }
+    .ModalContainer{
+        height: 550px;
+        width: 500px;
+        
+    }
+}
+@media only screen and(max-width: 780px){
+    .customModalContainer{
+        height: 400px !important;
+       margin-left: 12% !important;
+    }
+    
+}
+
+
+@media only screen and (max-width: 500px) {
+    .customModalContainer{
+        height: 400px !important;
+        width: 300px !important;
+        margin-left: 7% !important;
+    }
+    .ModalContainer{
+        height: 500px;
+        width: 380px;    
+    }
+    .ModalButton{
+        font-size: 10px !important;
+    }
+    .ModalContainerBodyReglamento{
+        font-size: 14px !important;
+    }
+    .ModalContainerBodyCheckbox p{
+        font-size: 12px !important;
+    }
+    .ModalContainerToolbarTittle{
+        font-size: 11px;
+    }
+}
+.formModal{
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 321px) {
+    .ModalContainer{
+        height: 480px;
+        width: 310px;    
+    }
+    .customModalContainer{
+        height: 400px !important;
+        width: 300px !important;
+        margin-left: -10px !important;
+    }
+    
+}

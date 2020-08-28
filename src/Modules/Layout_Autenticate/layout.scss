@@ -1,0 +1,143 @@
+.opinionButton{
+    height: 30px !important;
+    width: 150px !important;
+    padding: 0 !important;
+    font-size: 10px !important;
+    float: right !important;
+    background-color: #626367 !important;
+    color: white !important;
+}
+.ayudaButton{
+    height: 30px !important;
+    width: 150px !important;
+    padding: 0 !important;
+    font-size: 10px !important;
+    float: right !important;
+    background-color: #8c60a1 !important;
+    color: white !important;
+}
+.containerCh{
+    height:  495px !important;
+}
+.ButtonMenuPrincipal{
+    height: 40px !important;
+    .iconMenu{
+        font-size: 9.5px !important;
+    }
+}
+.footer {
+    float: right !important;
+    position: absolute;
+    bottom: 17px;
+    width: 100%;
+    height: 19px;
+    color: white;
+  }
+
+//-------------------------------------------------------
+
+@media (min-width: 1600px){
+    .footer{
+        width: 1400px;
+    }
+  }
+@media (min-width: 1800px){
+    .footer{
+        width: 1600px;
+    }
+  }
+@media (min-width: 2000px){
+    .footer{
+        width: 1800px;
+    }
+  }
+@media (min-width: 2500px){
+    .footer{
+        bottom: 0%;
+    }
+    
+}
+
+@media (max-width: 2490px){
+    .footer{
+        bottom: 0%;
+    }
+    
+}
+@media (max-width: 2000px){
+    .footer{
+        bottom: 0%;
+    }
+    
+}
+@media (max-width: 1800px){
+    .footer{
+        bottom: 0%;
+    }
+    
+}
+@media (max-width: 1590px){
+    .footer{
+        bottom: 0%;
+    }
+    
+}
+@media (max-width: 1440px) {
+    .footer{
+        bottom: 0px;
+    }
+}
+@media (max-width: 1380px) {
+    .footer{
+        bottom: 8px;
+    }
+}
+@media (max-width: 1024px) {
+    .footer{
+        bottom: 9px;
+    }
+}
+@media (max-width: 780px) {
+    .footer{
+        bottom: -40px;
+    }
+    .footerCalendar{
+        height: 20px;
+        margin-top: 10% !important;
+        position: relative;
+    }
+    .footerMensajes{
+        height: 20px;
+        margin-top: 3% !important;
+        position: relative;
+    }
+}
+@media (max-width: 500px) {
+    .containerCh{
+        height:  600px !important;
+    }
+    .footerCalendar{
+        height: 20px;
+        margin-top: 2% !important;
+        position: relative;
+    }
+    .footerMensajes{
+        height: 20px;
+        margin-top:-2% !important;
+        position: relative;
+    }
+}
+@media (max-width: 425px) {
+    .containerCh{
+        height:  600px !important;
+    }
+    .footerCalendar{
+        height: 20px;
+        margin-top: 32% !important;
+        position: relative;
+    }
+    .footer{
+        height: 9px;
+        bottom: 0px;
+    }
+}

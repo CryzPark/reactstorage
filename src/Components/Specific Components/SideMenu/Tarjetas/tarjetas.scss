@@ -1,0 +1,121 @@
+.TittleTarjetas{
+    text-align: center;
+    color: #8c60a1;
+    letter-spacing: 1pt;
+}
+.AgregarTarjeta{
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1pt;
+}
+.SelectTarjetas{
+    width: 100% ;
+}
+.SelectTarjeta{
+    padding-top: 5px ;
+    padding-bottom: 5px ;
+    width: 100% ;
+    border-bottom: 1px solid #e0e0e0;
+}
+.textTarjeta{
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    color: #4D4D4D;
+}
+.InfoTarjetas{
+    margin-left: 27px;
+}
+.TarjetaType{
+    font-size: 13px;
+}
+.Tarjetainfo{
+    font-size: 11px;
+}
+.radioText{
+    margin-top: 4.5px;
+}
+.RadioTj{
+    color:#8c60a1 !important ;
+}
+.ButtonAgregarTarjeta{
+    width: 100%;
+}
+.ButtonAgregarTarjeta :hover{
+    cursor: pointer;
+}
+
+
+.TarjetaAddInfo{ 
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.formRadioTarjeta{
+    margin-left: 32% !important;
+    span{
+        font-size: 14px !important; 
+    }
+    
+}
+.AddTarjetas{
+    width: 100%;
+    
+}
+.TarjetasInput{
+    margin-top: 10px !important;
+    width: 50% !important;
+    margin-left: 25% !important;
+    div{
+        
+        font-size: 10px !important;
+        height: 25px !important;
+        padding: 0 !important;
+        padding-left: 15px !important;
+        border-radius:0px ;
+        textarea{
+            color: black !important;
+        }
+    }
+    .MuiFormLabel-root{
+        
+        font-size: 10px !important;
+    }
+}
+.TarjetasInputSelect{
+ 
+    div{
+        border: 0px solid black !important;
+        font-size: 10px !important;
+        height: 25px !important;
+        padding: 0 !important;
+        padding-left: 15px !important;
+        background-color: #e0e0e0;
+        border-radius:0px ;
+    }
+    .MuiFormLabel-root{
+        font-size: 10px !important;
+    }
+}
+.vigenciaTarjeta{
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    margin-left: 25% !important;
+    margin-top: 10px !important;
+}
+.pickerVigencia{ 
+    width: 50% !important;
+    margin-left: 25% !important;
+}
+.TarjetasButton{
+    width: 50% !important;
+    margin-left: 25% !important;
+    background-color: #8c60a1 !important;
+    color: white !important;
+    border-radius: 5px !important;
+    margin-top: 50px !important;
+}
+.ButtonTarjeta{
+    margin-top: 150px !important;
+}

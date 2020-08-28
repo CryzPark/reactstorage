@@ -1,0 +1,112 @@
+.itemStatus{
+    height: 70px;
+    width: 100%;
+    border: none !important;
+    border-bottom:1px solid #e0e0e0 !important ;
+}
+.ItemStatusImg{
+    margin-left:10px;
+    background-size: cover;
+    height: 70px;
+    width: 80%;
+    
+    
+}
+.itemStatusGrid{
+    height: 70px !important;
+    width: 100%;
+} 
+.ItemStatusBar{
+    height: 70px;
+    width: 10px;
+}
+.ItemStatusText{
+    background-color: rgba(10,10,10,0.4);
+    text-align: center;
+    color: white;
+    
+}
+.ItemStatusText p{
+    margin: 0 !important;
+}
+.ItemStatusTextType p{
+    margin: 0 !important;
+    font-size: 12px;
+}
+.ItemStatusTextType h4{
+    color: #8c60a1;
+    margin: 0 !important;
+    font-size: 14px;
+}
+.ItemStatusTextType{
+    margin-top: 22px !important;
+}
+.ItemStatusTextTypes h4{
+    margin-top: 25px;
+    font-size: 14px;
+    color: #707070;
+    font-weight: 400;
+}
+.ItemStatusTextIcon{
+    text-align: center;
+    margin-top:10px !important;
+}
+.ItemStatusTextIcon p{
+    margin: 0 !important;
+    font-size: 10px;
+}
+.ItemStatusIcon{ 
+   text-align: center;
+   font-size: 22px;
+}
+.statusmm{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.statusdd{
+    font-weight: bold;
+}
+.statusyy{
+    font-weight: lighter;
+}
+
+@media only screen and (max-width: 425px) {
+    .ItemStatusTextIcon p{
+        font-size: 8px;
+    }
+    .ItemStatusIcon{
+        font-size: 14px;
+        margin-bottom: 5px !important; 
+    }
+    .ItemStatusTextTypes p{
+      
+        h4{
+            font-size: 12px;
+        }
+    }
+    .ItemStatusTextType{
+        p{
+            font-size: 10px;
+        }
+        h4{
+            font-size: 12px; 
+        }
+    }
+    .ItemStatusText{
+        height: 100%;
+        p{
+            padding-top: 7% ;
+            font-size: 10px;
+        }
+    }
+}
+@media only screen and (max-width: 320px) {
+    .ItemStatusTextIcon p{
+        font-size: 7px;
+    }
+    .ItemStatusIcon .Icon{
+        height: 12px;
+        width: 12px;
+        margin-bottom: 5px;
+    }
+}

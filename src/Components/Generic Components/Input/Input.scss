@@ -1,0 +1,48 @@
+.FormLogin{
+    text-align: center;
+}
+.FormLoginInput{
+    width: 100%!important;
+    height: 100%!important;
+}
+.FormLoginInput div{
+    border-radius: 10px !important;
+}
+.FormInput{
+    width: 100%!important;
+    
+    
+}
+.FormInput  .MuiFormLabel-root.Mui-focused{
+    color:#424242 !important;
+}
+.FormInput .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #424242 !important;
+    border-width: 1px !important;
+    color:#424242 !important;
+}
+.iconInput{
+    float: left !important;
+    text-align: center !important;
+}
+.SearchBar div input{
+    border:none !important;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size:14px;
+}
+.SearchBar .MuiInputLabel-outlined.MuiInputLabel-marginDense{
+    transform: translate(14px, 9px) scale(1) !important;
+}
+.SearchBar .MuiInputLabel-outlined.MuiInputLabel-shrink{
+    transform: translate(14px, -6px) scale(0.75) !important;
+}
+.SearchBar .MuiInputLabel-outlined{
+    transform: translate(14px, 20px) scale(1);
+}
+.SearchBar div input{
+    height: 23px !important;
+}
+.inputWhIcon{
+    height: 40px !important;
+}

@@ -1,0 +1,50 @@
+.HeaderTool{
+    background-color: white!important;
+    
+}
+.ButtonMenu{
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 9.5px !important;
+    color: #707070 !important;
+    .MuiButton-iconSizeMedium > *:first-child{
+        font-size: 14.5px !important;
+    }
+}
+.SelectMenu .MuiButton-iconSizeMedium > *:first-child{
+    color: #8c60a1 !important;
+    font-size: 18px !important;
+    margin-right: -5px !important;
+}
+.SelectMenu{
+    border-bottom: 1px solid purple !important;
+    font-size: 12px !important;
+    color: #8c60a1 !important;
+}
+.iconMenu{
+    color:#989898;
+    font-size: 20px !important;
+}
+
+.borderright{
+    border-right: .5px solid #D5DBDB   !important;
+}
+//-------------------------------------------------------------------
+
+
+.fButton{
+    border-right:1px solid rgba(0, 0, 0, 0.12) !important;
+}
+.SubButtonMenu{
+    background-color:#eeeeee !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 12px !important;
+    color: #707070 !important;
+    .MuiButton-iconSizeMedium > *:first-child{
+        font-size: 14.5px !important;
+    }
+}
+.SubSelectMenu{
+    border-bottom: none !important;
+    font-size: 14px !important;
+    color: #5c007a !important;
+}

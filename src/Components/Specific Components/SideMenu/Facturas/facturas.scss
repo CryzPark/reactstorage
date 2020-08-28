@@ -1,0 +1,128 @@
+.dropzone{
+    height: 40%;
+    margin-top: 5%;
+    text-align: center;
+    border: 0.5px solid #e0e0e0 !important;
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 60% !important;
+    margin-left: 20%;
+}
+.Icon{
+    margin-top: 5px;
+    font-size: 100px;
+    color: #8c60a1;
+}
+.comentFacturas{
+    height: 80px;
+    margin-top: 5%;
+    width: 60% !important;
+    margin-left: 20%;
+}
+.facturasInput {
+    div{
+        height: 80px !important;
+    }
+    
+    width: 100%;
+}
+
+.SubmitFacturas{
+    height: 40px;
+    margin-top: 8%;
+    width: 40%;
+    margin-left: 30%;
+    .FacturaButton{
+        -webkit-box-shadow: 0px 5px 10px -3px rgba(0,0,0,0.75) !important;
+        -moz-box-shadow: 0px 5px 10px -3px rgba(0,0,0,0.75) !important;
+        box-shadow: 0px 5px 10px -3px rgba(0,0,0,0.75) !important;
+        border: 1px solid #e0e0e0 !important;
+        color: #8c60a1 !important;
+    }
+}
+.textFacturaAct{
+    color: #8c60a1;
+}
+.imgRecibos{
+    width: 100px;
+    height: 100px;
+    
+}
+.dropzonelink{
+    border:none !important;
+    color:#2196f3;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #2196f3 !important;
+    margin-left: 22%;
+    input{
+        border:none !important; 
+    }
+}
+
+@media only screen and(max-width: 1030px){
+    .dropzone{
+        height: 200px !important;
+        width: 70% !important;
+        margin-left: 15%;
+    }
+    .SubmitFacturas{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .comentFacturas{
+        height: 80px;
+        width: 70% !important;
+        margin-left: 15%;
+    }
+}
+@media only screen and(max-width: 780px){
+    .dropzone{
+        height: 150px !important;
+        width: 80% !important;
+        margin-left: 10%;
+    }
+    .Icon{
+        margin-top: 5px;
+        font-size: 60px;
+    }
+    .imgRecibos{
+        width: 80px;
+        height: 60px;
+        
+    }
+    .SubmitFacturas{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .comentFacturas{
+        height: 60px;
+        width: 80% !important;
+        margin-left: 10%;
+    }
+}
+@media only screen and(max-width: 520px){
+    .dropzone{
+        height: 170px !important;
+        width: 90% !important;
+        margin-left: 5%;
+    }
+    .Icon{
+        margin-top: 0px;
+        font-size: 50px;
+    }
+    .imgRecibos{
+        width: 80px;
+        height: 50px;
+        
+    }
+    .SubmitFacturas{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 35px;
+    }
+    .comentFacturas{
+        height: 60px;
+        width: 90% !important;
+        margin-left: 5%;
+    }
+}

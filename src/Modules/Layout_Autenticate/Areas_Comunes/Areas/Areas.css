@@ -1,0 +1,83 @@
+.calendar{
+    height: 422px !important;
+}
+.fc-day-header{
+    color: #707070;
+    font-size: 14px;
+    text-align: justify !important;
+    padding-left: 5px !important;
+}
+.fc-day-grid-event {
+    border: none !important;
+    margin: 0px 0px 0;
+}
+.ToolBarCalendar{
+   
+    min-height: 36px !important;
+}
+.ToolBarCalendarTitle{
+    width: auto;
+}
+.ToolBarMonth{
+    border-radius: 5px  ;
+    text-align: center;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    width: 80%;
+    margin-left: 8%;
+}
+.ToolBarCalendarDiv{
+    width: 40%;
+    height: 23px;
+    clear: both;
+    margin-left: 60%;
+    margin-top: 1%;
+}
+.ToolBarCalendarButton{
+    margin-top: 1.5px;
+    width: 10%;
+}
+.fc-toolbar.fc-header-toolbar{
+    margin-bottom: 0 !important;
+}
+.modal{
+    width: 50% !important;
+    padding-left: 25% !important;
+    padding-right: 25% !important;
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+}
+@media only screen and (max-width: 780px) {
+    .modal{
+        width: 90% !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+        padding-top: 5% !important;
+        padding-bottom: 5% !important;
+    }
+    .ToolBarCalendarDiv{
+        width: 50%;
+        margin-left: 50%;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .ToolBarCalendarDiv{
+        width: 70%;
+        height: 23px;
+        clear: both;
+        margin-left: 30%;
+        margin-top: 1%;
+    }
+    .ToolBarCalendarTitle{
+        font-size: 16px !important;
+    }
+    .calendar{
+        height: 500px !important;
+    }
+}
+
+
